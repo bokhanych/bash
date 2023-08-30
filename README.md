@@ -1,8 +1,5 @@
 # bash
 Ubuntu server set up bash scripts (openvpn server and forwarder)
-
-Переменные задаются единожды, при запуске скрипта.
-
 Реализовано: 
 - добавление пользователя с заданным паролем;
 - установка часового пояса;
@@ -14,3 +11,5 @@ Ubuntu server set up bash scripts (openvpn server and forwarder)
 - настройка забикс клиента;
 - создание vpn сервера с клиентскими конфигурациями; 
 - подключение к Ansible.
+
+bruteforce.sh: подбирает пароль и учетную запись к списку серверов для подключения по ssh.
